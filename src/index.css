@@ -39,10 +39,12 @@ a {
 body {
   font-family: var(--ff-primary);
   color: var(--color-neutral-grayish-blue);
-  /* line-height: 1.7rem; */
   background: var(--color-neutral-light-gray);
 }
 
+p {
+  line-height: 1.7rem;
+}
 /* utility classes */
 
 .heading {

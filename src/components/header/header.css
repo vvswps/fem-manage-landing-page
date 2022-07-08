@@ -18,6 +18,7 @@
 .header-container .text p {
   margin-bottom: 3rem;
   max-width: 55%;
+  /* line-height: 1.7rem; */
 }
 
 header {
