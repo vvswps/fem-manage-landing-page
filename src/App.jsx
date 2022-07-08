@@ -1,9 +1,16 @@
 import React from "react";
+import Header from "./components/header/Header";
+import About from "./components/about/About";
+import Testimonials from "./components/testimonials/Testimonials";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
     <>
-      <h1>Hello World</h1>
+      <Header />
+      <About />
+      <Testimonials />
+      <Footer />
     </>
   );
 };

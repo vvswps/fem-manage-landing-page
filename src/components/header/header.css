@@ -1,0 +1,46 @@
+.header-container {
+  padding: var(--padding);
+  display: flex;
+}
+
+.header-container .text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-container .text h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.header-container .text p {
+  margin-bottom: 3rem;
+  max-width: 55%;
+}
+
+header {
+  background: no-repeat right -8.5rem bottom 8rem url("../../assets/bg-tablet-pattern.svg");
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding);
+}
+
+.nav-container .links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container .links a:hover {
+  opacity: 0.6;
+}
+.nav-container .links a {
+  margin-left: 2rem;
+  color: var(--color-primary-blue);
+  transition: var(--transition);
+}
