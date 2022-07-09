@@ -6,8 +6,10 @@ import Testimonials from "../testimonials/Testimonials";
 const AboutTestimonials = () => {
   return (
     <>
-      <About />
-      <Testimonials />
+      <div className="aboutTestimonials-container">
+        <About />
+        <Testimonials />
+      </div>
     </>
   );
 };

@@ -3,20 +3,60 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  /* align-items: center;
-  justify-content: space-between; */
-}
-
-.mySwiper .slider {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  background: var(--color-neutral-light-gray);
-  /* background: red; */
-  /* width: 40rem; */
+  margin-top: 4rem;
 }
 
 .testimonials-container .heading {
   text-align: center;
   margin-bottom: 4rem;
+}
+
+.swiper {
+  max-width: 110vw;
+  height: 40vh;
+  position: relative;
+}
+
+.swiper-slide {
+  background: var(--color-neutral-light-gray);
+  /* background: red; */
+
+  /* Center slide text vertically */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  max-width: 45vw;
+  position: relative;
+  max-height: 35vh;
+  padding: 2rem;
+}
+
+.swiper-slide img {
+  /* position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%); */
+  width: 5rem;
+  margin-bottom: 2rem;
+}
+.carousel-container {
+  position: relative;
+}
+
+.carousel-container h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--color-primary-blue);
+  text-align: center;
+}
+.carousel-container p {
+  text-align: center;
+}
+
+.carousel-container .text {
+  height: 80%;
+  background: var(--color-neutral-light-gray);
 }

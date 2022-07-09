@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Autoplay, Mousewheel, Keyboard, Navigation, Pagination } from "swiper";
 
 import Anisha from "../../assets/avatar-anisha.png";
 import Ali from "../../assets/avatar-ali.png";
@@ -46,7 +46,8 @@ const Carousel = () => {
         mousewheel={true}
         keyboard={true}
         slidesPerView={3}
-        modules={[Autoplay]}
+        loop={true}
+        modules={[Autoplay, Mousewheel, Keyboard, Navigation, Pagination]}
         className="mySwiper"
       >
         {DATA.map(({ avatar, name, review }, index) => {
@@ -55,8 +56,10 @@ const Carousel = () => {
               <div className="avatar">
                 <img src={avatar} alt="client avatar" />
               </div>
-              <h5>{name}</h5>
-              <p>{review}</p>
+              <div className="text">
+                <h5>{name}</h5>
+                <p>{review}</p>
+              </div>
             </SwiperSlide>
           );
         })}
