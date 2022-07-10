@@ -5,7 +5,7 @@
   width: 100%;
   align-items: center;
   margin-top: 4rem;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .testimonials-container .heading {
@@ -20,25 +20,29 @@
 }
 
 .swiper-slide {
+  margin-top: 3rem;
   background: var(--color-neutral-light-gray);
   /* background: red; */
 
   /* Center slide text vertically */
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   /* justify-content: center; */
   align-items: center;
   max-width: 45vw;
   position: relative;
-  max-height: 35vh;
+  max-height: 30vh;
   padding: 2rem;
 }
 
 .swiper-slide img {
-  /* position: absolute;
-  top: -50%;
-  left: 50%;
-  transform: translateX(-50%); */
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* left: 50%; */
   width: 5rem;
   margin-bottom: 2rem;
 }
