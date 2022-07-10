@@ -31,7 +31,13 @@ footer .top h1 {
 footer .top button {
   background-color: var(--color-neutral-light-gray);
   color: var(--color-primary-red);
-  font-weight: 600;
+  z-index: 1;
+  transition: var(--transition);
+}
+
+footer .top button:hover {
+  color: var(--color-neutral-pale-red);
+  opacity: 1;
 }
 
 footer .bottom {
@@ -78,9 +84,15 @@ footer .bottom .col4 {
   justify-content: space-between;
   height: 100%;
 }
-footer .bottom .col4 section input {
+footer .bottom .col4 input {
   margin-right: 1rem;
   padding: 1rem;
   padding-right: 3rem;
   border-radius: 2rem;
+}
+
+footer .col4 button {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }

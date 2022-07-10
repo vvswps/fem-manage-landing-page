@@ -51,10 +51,10 @@ const Footer = () => {
         </div>
 
         <div className="col4">
-          <section>
-            <input type="text" placeholder="Updates in your inbox…" />
+          <form>
+            <input type="email" placeholder="Updates in your inbox…" />
             <button className="btn">Go</button>
-          </section>
+          </form>
           <div className="attribution">
             <p>Copyright 2020. All Rights Reserved</p>
             Challenge by{" "}
