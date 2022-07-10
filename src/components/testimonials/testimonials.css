@@ -5,6 +5,7 @@
   width: 100%;
   align-items: center;
   margin-top: 4rem;
+  overflow: hidden;
 }
 
 .testimonials-container .heading {
