@@ -4,5 +4,8 @@
         "herokuapp",
         "Pinterest",
         "Swiper"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
     ]
 }

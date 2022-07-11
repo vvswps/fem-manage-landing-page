@@ -10,6 +10,7 @@ footer .top {
   justify-content: space-between;
   background: var(--color-primary-red);
   position: relative;
+  overflow: hidden;
 }
 
 footer .top::before {
@@ -20,6 +21,18 @@ footer .top::before {
   width: 100%;
   height: 100%;
   background: url("../../assets/bg-tablet-pattern.svg") no-repeat;
+  opacity: 0.1;
+}
+
+footer .top::after {
+  content: "";
+  position: absolute;
+  top: -5rem;
+  right: -34rem;
+  width: 100%;
+  height: 100%;
+  background: url("../../assets/bg-tablet-pattern.svg") no-repeat;
+  transform: rotate(180deg);
   opacity: 0.1;
 }
 
