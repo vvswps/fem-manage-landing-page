@@ -45,3 +45,33 @@
 .about-container .list p {
   max-width: 75%;
 }
+
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: var(--padding-mobile);
+    text-align: center;
+    gap: 5rem;
+  }
+  .about-container .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-container .list .list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .about-container .list p {
+    max-width: 100%;
+  }
+}

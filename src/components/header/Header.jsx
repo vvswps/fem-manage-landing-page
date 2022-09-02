@@ -16,7 +16,9 @@ const Header = () => {
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
-          <button className="btn">Get Started</button>
+          <div className="btn-container">
+            <button className="btn">Get Started</button>
+          </div>
         </div>
 
         <img src={IMAGE} alt="intro" />

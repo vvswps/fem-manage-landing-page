@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Mousewheel, Keyboard, Navigation, Pagination } from "swiper";
+import { useMediaQuery } from "react-responsive";
 
 import Anisha from "../../assets/avatar-anisha.png";
 import Ali from "../../assets/avatar-ali.png";
@@ -35,6 +36,7 @@ const DATA = [
 ];
 
 const Carousel = () => {
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   return (
     <div>
       <Swiper
@@ -45,7 +47,7 @@ const Carousel = () => {
         }}
         mousewheel={true}
         keyboard={true}
-        slidesPerView={3}
+        slidesPerView={isMobile ? 1 : 3}
         loop={true}
         modules={[Autoplay, Mousewheel, Keyboard, Navigation, Pagination]}
         className="mySwiper"

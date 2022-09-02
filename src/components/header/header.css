@@ -45,3 +45,56 @@ header {
   color: var(--color-primary-blue);
   transition: var(--transition);
 }
+
+.hamburger-icon {
+  display: none;
+  cursor: pointer;
+}
+.header-container img {
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-icon {
+    display: block;
+  }
+
+  #nav .links,
+  #nav .btn {
+    display: none;
+  }
+
+  .nav-container,
+  .header-container {
+    padding: var(--padding-mobile);
+  }
+
+  .header-container {
+    flex-direction: column-reverse;
+    padding-top: 0;
+    justify-content: center;
+  }
+
+  header {
+    background: no-repeat left 0 top -20rem url("../../assets/bg-tablet-pattern.svg");
+  }
+
+  .header-container .text h1 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .header-container .text p {
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .header-container .btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

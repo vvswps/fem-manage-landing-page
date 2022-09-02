@@ -49,7 +49,7 @@ footer .top button {
 }
 
 footer .top button:hover {
-  color: var(--color-neutral-pale-red);
+  color: var(--color-secondary-red);
   opacity: 1;
 }
 
@@ -109,3 +109,51 @@ footer .col4 button {
   -moz-box-shadow: none;
   box-shadow: none;
 }
+
+footer .col4 button:hover {
+  background-color: var(--color-secondary-red);
+  color: var(--color-neutral-pale-red);
+  opacity: 1;
+}
+footer a:hover {
+  color: var(--color-primary-red);
+  transition: var(--transition);
+}
+
+footer a svg path:hover {
+  fill: var(--color-primary-red);
+  transition: var(--transition);
+}
+
+.col4 input {
+  color: var(--color-primary-red);
+}
+
+.email-container.error input {
+  border: 2px solid var(--color-primary-red);
+}
+
+.email-container {
+  position: relative;
+}
+
+.email-container.error .email-container::after {
+  content: "Invalid email";
+  color: var(--color-primary-red);
+  background: red;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* display error message under input */
+/* .error {
+  color: var(--color-primary-red);
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+} */

@@ -36,6 +36,12 @@
   padding: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .swiper-slide {
+    max-width: 80vw;
+  }
+}
+
 .swiper-slide img {
   position: absolute;
   top: -40px;
@@ -64,4 +70,9 @@
 .carousel-container .text {
   height: 80%;
   background: var(--color-neutral-light-gray);
+}
+
+.testimonials-container .btn {
+  margin-bottom: 1rem;
+  box-shadow: 0px 10px 10px -6px var(--color-primary-red);
 }
