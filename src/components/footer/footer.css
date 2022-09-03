@@ -157,3 +157,54 @@ footer a svg path:hover {
   font-size: 0.8rem;
   font-weight: bold;
 } */
+
+@media screen and (max-width: 768px) {
+  footer {
+    margin-top: 2rem;
+  }
+  footer .top {
+    flex-direction: column;
+    overflow: visible;
+    padding: 15% 0;
+  }
+  footer .top button {
+    margin-top: 1.5rem;
+  }
+  footer .top h1 {
+    max-width: 80vw;
+  }
+  footer .top::after {
+    display: none;
+  }
+  footer .bottom {
+    flex-direction: column;
+    padding: 8% 0;
+  }
+  footer .bottom .col1 {
+    align-items: center;
+    max-width: 80vw;
+  }
+  footer .social-icons {
+    gap: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  footer .bottom .col2 {
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1% 15%;
+  }
+  footer .bottom .col3 {
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1% 15%;
+  }
+  footer .bottom .col4 {
+    display: none;
+  }
+  footer .bottom::after {
+    content: "Copyright 2020. All Rights Reserved";
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+  }
+}
