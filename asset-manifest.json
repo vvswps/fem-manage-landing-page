@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/fem-manage-landing-page/static/css/main.28c4fdd4.css",
+    "main.js": "/fem-manage-landing-page/static/js/main.006a9104.js",
+    "static/media/avatar-ali.png": "/fem-manage-landing-page/static/media/avatar-ali.88f9155cb730934f4d7c.png",
+    "static/media/avatar-shanai.png": "/fem-manage-landing-page/static/media/avatar-shanai.4bbe2f95e8975736fbd8.png",
+    "static/media/illustration-intro.svg": "/fem-manage-landing-page/static/media/illustration-intro.cb9a8a9551ca99f99a125230d38a2c36.svg",
+    "static/media/avatar-anisha.png": "/fem-manage-landing-page/static/media/avatar-anisha.484e15bc92ce6a0106ab.png",
+    "static/media/avatar-richard.png": "/fem-manage-landing-page/static/media/avatar-richard.ace8e0892f67a50c1e9e.png",
+    "static/media/logo.svg": "/fem-manage-landing-page/static/media/logo.66a576108be35c08eb2ca3e40c17d151.svg",
+    "index.html": "/fem-manage-landing-page/index.html",
+    "static/media/bg-tablet-pattern.svg": "/fem-manage-landing-page/static/media/bg-tablet-pattern.b6990a984c7bcc142d3e.svg",
+    "main.28c4fdd4.css.map": "/fem-manage-landing-page/static/css/main.28c4fdd4.css.map",
+    "main.006a9104.js.map": "/fem-manage-landing-page/static/js/main.006a9104.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28c4fdd4.css",
+    "static/js/main.006a9104.js"
+  ]
+}
